@@ -1,13 +1,64 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  height: 80px;
+}
+.logo-img {
+  max-height: 200px;
+  width: auto;
+  margin-right: -50px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.1);
+  height: 80px;
+}
+.logo-img {
+  max-height: 200px;
+  width: auto;
+  margin-right: -50px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif; /* Clean, modern font */
+  background-color: #f8f9fa; /* Light grey background */
+  color: #333; /* Slightly softened black for text */
+  line-height: 1.6; /* Improved line spacing for readability */
+}
+.carousel-item img {
+  height: 500px; /* Set a fixed height for all images */
+  object-fit: cover; /* Ensure images cover the area without distortion */
+}
+
+.carousel-caption {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.6
+  ); /* Lighter background for better readability */
+  padding: 1rem 2rem; /* Adjust padding to give more space around the text */
+  border-radius: 8px; /* Rounded corners for a softer look */
+  max-width: 80%; /* Limit the width of the caption box to maintain layout integrity */
+  margin-bottom: 10%; /* Push the caption higher to avoid clashing with interface elements */
+}
+
+.display-3 {
+  font-size: 2rem; /* Adjust font size for better fit */
+  font-weight: bold; /* Stronger weight for headline */
+  margin-bottom: 0.5rem; /* Space between headline and subtitle */
+}
+
+h5 {
+  font-size: 1.2rem; /* Subtitle font size */
+  font-weight: normal; /* Less weight than the title */
+  color: #f8f9fa; /* Slightly off-white for subtle contrast */
 }
