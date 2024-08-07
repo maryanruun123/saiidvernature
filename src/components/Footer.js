@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
 
 function Footer() {
   return (
@@ -18,24 +19,24 @@ function Footer() {
             <h5 className="text-uppercase">Quick Links</h5>
             <ul className="list-unstyled">
               <li>
-                <a href="/" className="text-dark">
+                <Link to="/" className="text-dark">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/about-us" className="text-dark">
+                <Link to="/about-us" className="text-dark">
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/services" className="text-dark">
+                <Link to="/services" className="text-dark">
                   Services
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/contact-us" className="text-dark">
+                <Link to="/contact" className="text-dark">
                   Contact Us
-                </a>
+                </Link>
               </li>
             </ul>
           </Col>
@@ -78,14 +79,14 @@ function Footer() {
             <h5 className="text-uppercase">Legal</h5>
             <ul className="list-unstyled">
               <li>
-                <a href="/privacy-policy" className="text-dark">
+                <Link to="/privacy-policy" className="text-dark">
                   Privacy Policy
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/terms-of-service" className="text-dark">
+                <Link to="/terms-of-service" className="text-dark">
                   Terms of Service
-                </a>
+                </Link>
               </li>
             </ul>
           </Col>
